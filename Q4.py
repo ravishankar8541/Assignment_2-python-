@@ -1,4 +1,6 @@
-# Write a python script which takes the radius from the user and display area of a circle.
-
-r=int(input("Enter the radius of circle :"))
-print("Area of circle is ",(3.14*r*r))
+"""Write a python script to print the id of two variables containing the same integer
+values."""
+a=7
+b=7
+print(id(a))
+print(id(b))
